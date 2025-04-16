@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+
 public class GameManager : MonoBehaviour
 {
 
@@ -22,7 +23,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void Addscore(int points)
+    public void AddScore(int points)
     {
         score += points;
         scoreText.text = "Score: " + score.ToString();
